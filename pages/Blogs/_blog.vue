@@ -7,6 +7,7 @@
 
 <script>
 export default {
+  // middleware: 'test',
   validate ({ params }) {
     return /^\d+$/.test(params.blog)
   },
