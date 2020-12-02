@@ -81,10 +81,16 @@ import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
-  layout: 'secondLayout',
+  // layout: 'secondLayout',
   components: {
     Logo,
     VuetifyLogo
+  },
+  head () {
+    return {
+      title: 'Home page',
+      meta: [{ hid: 'description', name: 'description', content: 'I am a new meta tag' }]
+    }
   }
 }
 </script>

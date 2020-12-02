@@ -19,6 +19,7 @@
 
         <v-card-title>
           Top western road trips
+          {{ title }}
         </v-card-title>
 
         <v-card-subtitle>
@@ -57,9 +58,21 @@
 
 <script>
 export default {
+
+  asyncData () {
+    return {
+      title: 'Im a title'
+    }
+  },
   data () {
     return {
       show: false
+    }
+  },
+  head () {
+    return {
+      title: 'Inspire page',
+      meta: [{ hid: 'description', name: 'description', content: 'Inspire me' }]
     }
   }
 }
