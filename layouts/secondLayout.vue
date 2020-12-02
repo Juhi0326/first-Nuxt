@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h1> Im am a layout</h1>
+      <h1> Im am the second layout</h1>
     </div>
     <nuxt />
   </div>
@@ -13,6 +13,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
