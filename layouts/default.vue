@@ -5,10 +5,9 @@
         <v-app-bar
           absolute
           color="green"
-          dark
           shrink-on-scroll
           prominent
-          src="https://picsum.photos/1920/1080?random"
+          src="https://pixabay.com/get/50e9d5444856b108feda8460da29317e1336dce7565079_1920.jpg"
           fade-img-on-scroll
           scroll-target="#scrolling-techniques-3"
         >
@@ -42,6 +41,9 @@
               <v-tab to="/">
                 Home
               </v-tab>
+              <v-tab to="/weather-app">
+                Weather-app
+              </v-tab>
             </v-tabs>
           </template>
         </v-app-bar>
@@ -62,4 +64,9 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style>
+.v-tab.v-tab {
+  text-decoration: false;
+  color: rgb(255, 248, 240);
+}
+</style>

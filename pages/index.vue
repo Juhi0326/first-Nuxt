@@ -1,29 +1,11 @@
 <template>
-  <v-app>
-    <v-navigation-drawer permanent>
-      <v-list-item>
-        <v-list-item-content>
-          <v-list-item-title class="title">
-            Application
-          </v-list-item-title>
-          <v-list-item-subtitle>
-            subtext
-          </v-list-item-subtitle>
-        </v-list-item-content>
-      </v-list-item>
-
-      <v-divider />
-    </v-navigation-drawer>
-
-    <v-app-bar app>
-    <!-- -->
-    </v-app-bar>
-
+  <div>
     <!-- Sizes your content based upon application components -->
     <v-main>
       <!-- Provides the application the proper gutter -->
-      <v-container fluid>
+      <v-container>
         <!-- If using vue-router -->
+        ez a szöveg
         <router-view />
       </v-container>
     </v-main>
@@ -31,7 +13,7 @@
     <v-footer app>
     <!-- -->
     </v-footer>
-  </v-app>
+  </div>
 </template>
 
 <script>
