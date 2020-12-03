@@ -49,6 +49,15 @@
             </div>
           </v-card-text>
           <v-card-text v-else>
+            <p class="subtitle-2 text--primary text-center pt-6">
+              opps, something went wrong, maybe there is not a city name like this...
+            </p>
+            <br>
+            <p class="subtitle-2 text--primary text-center pt-6">
+              this is the error message:
+            </p>
+
+            <br>
             {{ errorMessage }}
           </v-card-text>
         </v-card>
