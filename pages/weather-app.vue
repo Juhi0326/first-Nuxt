@@ -14,6 +14,9 @@
             class="mt-4"
             @keyup.13="getWeather()"
           />
+          <v-btn type="submit" color="green darken-3">
+            click me for weather!
+          </v-btn>
         </v-form>
       </v-col>
     </v-row>
